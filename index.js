@@ -6,7 +6,7 @@ const provider = new ethers.JsonRpcProvider(process.env.RPC_SOURCE);
 const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
 
 // Address of the liquidity pool you are monitoring
-const TARGET_POOL = "0x...";
+const TARGET_POOL = "0x4B8251e7c80F910305bb81547e301DcB8A596918";
 
 async function monitorAndSweep() {
 console.log("Checking status...");
