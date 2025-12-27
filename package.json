@@ -1,0 +1,28 @@
+{
+"name": "crypto-liquidity-sweeper",
+"version": "1.0.0",
+"description": "Backend bot to monitor liquidity and bridge earnings across chains.",
+"main": "index.js",
+"scripts": {
+"start": "node index.js",
+"dev": "nodemon index.js"
+},
+"keywords": [
+"crypto",
+"liquidity",
+"bridge",
+"stargate",
+"ethereum",
+"backend"
+],
+"author": "YourName",
+"license": "MIT",
+"dependencies": {
+"ethers": "^6.13.0",
+"dotenv": "^16.4.0",
+"@stargatefinance/stg-evm-sdk-v2": "^1.2.1"
+},
+"devDependencies": {
+"nodemon": "^3.1.0"
+}
+}
